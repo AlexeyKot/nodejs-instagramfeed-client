@@ -1,11 +1,29 @@
 {
   "name": "nodejs-instagramfeed-client",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alexey Chernov",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexeyKot/nodejs-instagramfeed-client.git"
+  },
+  "keywords": [
+    "nodejs",
+    "instagram",
+    "api"
+  ],
+  "bugs": {
+    "url": "https://github.com/AlexeyKot/nodejs-instagramfeed-client/issues"
+  },
+  "homepage": "https://github.com/AlexeyKot/nodejs-instagramfeed-client#readme",
+  "description": "",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "instagram-node": "^0.5.8"
+  }
 }
