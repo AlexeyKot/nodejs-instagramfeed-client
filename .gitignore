@@ -1,6 +1,7 @@
 .DS_Store
 *.sublime-project
 *.sublime-workspace
+apikey.js
 # Logs
 logs
 *.log

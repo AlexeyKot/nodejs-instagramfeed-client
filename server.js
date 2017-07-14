@@ -1,8 +1,10 @@
 // GRAB THE PACKAGES/VARIABLES WE NEED
 // ==================================================
-var express = require('express');
-var app = express();
-var ig = require('instagram-node').instagram();
+const express = require('express');
+const app = express();
+const ig = require('instagram-node').instagram();
+//just replace value of the const below with your instagram access token
+const apikey = require('./apikey');
 
 // CONFIGURE THE APP
 // ================================================== 
@@ -13,7 +15,10 @@ app.use(express.static(__dirname + '/public'));
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
-// configure instagram app with your access token
+// configure instagram app with your access_token
+ig.use({
+// get access token here: http://instagram.pixelunion.net/
+access_token: apikey, });
 
 // SET THE ROUTES
 // =================================================== 
