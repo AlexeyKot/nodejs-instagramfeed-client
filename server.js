@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 const ig = require('instagram-node').instagram();
 //just replace value of the const below with your instagram access token
-const apikey = require('./apikey');
+const apikey = require('./apikey').key;
 
 // CONFIGURE THE APP
 // ================================================== 
