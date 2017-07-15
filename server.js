@@ -25,9 +25,12 @@ access_token: apikey, });
 // home page route - our profile's images
 app.get('/', function(req, res) {
 	
-	// use the instagram package to get our profile's media 
-	// render the home page and pass in our profile's images
-	res.render('pages/index');
+	// use the instagram package to get popular media
+	ig.user_self_media_recent(function(err, medias, pagination, remaining, limit) { 
+	
+		// render the home page and pass in the popular images 
+		res.render('pages/index', { grams: medias });
+	});
 });
 
 // START THE SERVER
