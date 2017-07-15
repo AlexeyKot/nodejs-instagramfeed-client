@@ -2,6 +2,8 @@
 
 This is a project that shows you how to work with Instagram API through *instagram-node* package and Node.js
 
+![instagram web api client](http://i68.tinypic.com/2d2d69y.png "Instagram web api client")
+
 **Technologies**
 
 - Node.js
