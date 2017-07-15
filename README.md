@@ -4,7 +4,7 @@ This is a project that shows you how to work with Instagram API through *instagr
 
 **Technologies**
 
-Node.js
-Express
-Instagram-node
-Bootstrap
+- Node.js
+- Express
+- Instagram-node
+- Bootstrap
